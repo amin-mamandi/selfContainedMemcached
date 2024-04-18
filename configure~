@@ -6835,8 +6835,8 @@ OPENSSL_URL=https://www.openssl.org/
 if test "x$enable_tls" = "xyes"; then
 
 pkg_failed=no
-{ printf "%s\n" "$as_me:${as_lineno-$LINENO}: checking for openssl" >&5
-printf %s "checking for openssl... " >&6; }
+{ printf "%s\n" "$as_me:${as_lineno-$LINENO}: checking for OPENSSL" >&5
+printf %s "checking for OPENSSL... " >&6; }
 
 if test -n "$OPENSSL_CFLAGS"; then
     pkg_cv_OPENSSL_CFLAGS="$OPENSSL_CFLAGS"
@@ -6876,7 +6876,7 @@ fi
 
 
 if test $pkg_failed = yes; then
-        { printf "%s\n" "$as_me:${as_lineno-$LINENO}: result: no" >&5
+   	{ printf "%s\n" "$as_me:${as_lineno-$LINENO}: result: no" >&5
 printf "%s\n" "no" >&6; }
 
 if $PKG_CONFIG --atleast-pkgconfig-version 0.20; then
@@ -6998,7 +6998,7 @@ printf "%s\n" "$ac_cv_libssl_dir" >&6; }
     fi
 
 elif test $pkg_failed = untried; then
-        { printf "%s\n" "$as_me:${as_lineno-$LINENO}: result: no" >&5
+     	{ printf "%s\n" "$as_me:${as_lineno-$LINENO}: result: no" >&5
 printf "%s\n" "no" >&6; }
 
     { printf "%s\n" "$as_me:${as_lineno-$LINENO}: checking for libssl directory" >&5
